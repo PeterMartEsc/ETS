@@ -1,0 +1,75 @@
+dam@a108pc04:~$ ls
+ Descargas      mac-a108pc04.txt                   package.json
+ dockermysql    mac-a108pc4.txt                    package-lock.json
+ Documentos    'Máquina Virtual PeterMartEsc'      PeterMartEsc
+ Escritorio    'Máquinas Virtuales PeterMartEsc'   Plantillas
+ IdeaProjects   Música                             Público
+ Imágenes       node_modules                       Vídeos
+dam@a108pc04:~$ cd PeterMartEsc
+dam@a108pc04:~/PeterMartEsc$ ls
+'BASE DE DATOS'   ETS  'LENGUAJE DE MARCAS'   PROGRAMACION
+dam@a108pc04:~/PeterMartEsc$ mkdir dpl
+dam@a108pc04:~/PeterMartEsc$ cd dpl
+dam@a108pc04:~/PeterMartEsc/dpl$ ls -la
+total 8
+drwxrwxr-x 2 dam dam 4096 oct  3 14:59 .
+drwxrwxr-x 7 dam dam 4096 oct  3 14:59 ..
+dam@a108pc04:~/PeterMartEsc/dpl$ git int
+git: 'int' no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	init
+dam@a108pc04:~/PeterMartEsc/dpl$ git init
+ayuda: Usando 'master' como el nombre de la rama inicial. Este nombre de rama predeterminado
+ayuda: está sujeto a cambios. Para configurar el nombre de la rama inicial para usar en todos
+ayuda: de sus nuevos repositorios, reprimiendo esta advertencia, llama a:
+ayuda: 
+ayuda: 	git config --global init.defaultBranch <nombre>
+ayuda: 
+ayuda: Los nombres comúnmente elegidos en lugar de 'master' son 'main', 'trunk' y
+ayuda: 'development'. Se puede cambiar el nombre de la rama recién creada mediante este comando:
+ayuda: 
+ayuda: 	git branch -m <nombre>
+Inicializado repositorio Git vacío en /home/dam/PeterMartEsc/dpl/.git/
+dam@a108pc04:~/PeterMartEsc/dpl$ ls -la
+total 12
+drwxrwxr-x 3 dam dam 4096 oct  3 15:00 .
+drwxrwxr-x 7 dam dam 4096 oct  3 14:59 ..
+drwxrwxr-x 7 dam dam 4096 oct  3 15:00 .git
+dam@a108pc04:~/PeterMartEsc/dpl$ git status
+En la rama master
+
+No hay commits todavía
+
+no hay nada para confirmar (crea/copia archivos y usa "git add" para hacerles seguimiento)
+dam@a108pc04:~/PeterMartEsc/dpl$ cat > indice.txt
+Capítulo 1: Instalación de Git por el alumno XXX (donde XXX es el nombre del alumno)
+Capítulo 2: Flujo de trabajo básico
+dam@a108pc04:~/PeterMartEsc/dpl$ git status
+En la rama master
+
+No hay commits todavía
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	indice.txt
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+dam@a108pc04:~/PeterMartEsc/dpl$ git add indice.txt
+dam@a108pc04:~/PeterMartEsc/dpl$ git status
+En la rama master
+
+No hay commits todavía
+
+Cambios a ser confirmados:
+  (usa "git rm --cached <archivo>..." para sacar del área de stage)
+	nuevos archivos: indice.txt
+  
+dam@a108pc04:~/PeterMartEsc/dpl$ git commit -m "Añadido indice de la asignatura DPL"
+[master (commit-raíz) 8eaf0de] Añadido indice de la asignatura DPL
+ 1 file changed, 2 insertions(+)
+ create mode 100644 indice.txt
+dam@a108pc04:~/PeterMartEsc/dpl$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+dam@a108pc04:~/PeterMartEsc/dpl$ 
