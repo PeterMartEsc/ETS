@@ -92,6 +92,8 @@ Sigue los pasos
 
 - Volver a mostrar el __historial de cambios__ del repositorio.
 
+</br>
+
 <details>
 
   <summary> Contenido de mi terminal: </summary>
