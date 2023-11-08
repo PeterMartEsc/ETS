@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T16:08:48.471Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TZ8pTzjLuYuFrzwM6azD" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T16:10:44.218Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YKidv8ehKhk3_y4iEpJA" version="22.0.8" type="github">
   <diagram name="Página-1" id="fN_BX1Q7iqfhWap0hX38">
     <mxGraphModel dx="2259" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Te2KGw7d16V4PrrXAq18-25" value="Banco" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="120" width="760" height="460" as="geometry" />
+          <mxGeometry x="34" y="120" width="760" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
