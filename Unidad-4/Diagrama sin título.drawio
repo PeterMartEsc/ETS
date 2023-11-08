@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T15:48:59.118Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="llCfvHCOj4HMGBod6bS5" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T15:50:43.176Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mE4y-GjBGuBVFpSeOghN" version="22.0.8" type="github">
   <diagram name="Página-1" id="fN_BX1Q7iqfhWap0hX38">
     <mxGraphModel dx="1432" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,10 @@
         <mxCell id="Te2KGw7d16V4PrrXAq18-10" value="Depositar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="350" y="165" width="116" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Te2KGw7d16V4PrrXAq18-13" value="Autenticar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Te2KGw7d16V4PrrXAq18-13" value="Autenticar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Te2KGw7d16V4PrrXAq18-14" value="Verificar Depósito" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="760" y="160" width="116" height="50" as="geometry" />
         </mxCell>
       </root>
