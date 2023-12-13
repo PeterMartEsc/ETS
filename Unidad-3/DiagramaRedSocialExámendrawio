@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T15:31:36.693Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9NrGL5pBtJx6jp4e8A3V" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T15:40:07.341Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lhhUQ3yGCFcSJhNz98Ur" version="22.1.8" type="github">
   <diagram name="Página-1" id="fFUGSwkEiUMjdySNuffv">
-    <mxGraphModel dx="2261" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
           <mxGeometry y="330" width="240" height="32" as="geometry" />
         </mxCell>
         <mxCell id="v1v-lJA9SPpkzU7b_Pe3-48" value="Comentarios" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="810" width="240" height="230" as="geometry">
+          <mxGeometry x="560" y="852" width="240" height="230" as="geometry">
             <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -206,8 +206,7 @@
             <mxPoint x="330" y="760" as="sourcePoint" />
             <mxPoint x="470" y="1351" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="470" y="865" />
-              <mxPoint x="470" y="822" />
+              <mxPoint x="550" y="865" />
             </Array>
           </mxGeometry>
         </mxCell>
