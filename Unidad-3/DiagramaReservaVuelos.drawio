@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T15:54:56.013Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7cGFYj-d_IV6NxlWmVA7" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T15:56:17.189Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OcEQpBAG5J2PwGzFM-La" version="22.1.8" type="github">
   <diagram name="Página-1" id="x8U_Dv5Ob5EKD8kD6Ay6">
     <mxGraphModel dx="1434" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
             <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F4CTMy18U6F5XihdKhC9-46" value="- NombreAerolínea: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-58">
+        <mxCell id="F4CTMy18U6F5XihdKhC9-46" value="- Nombre Aerolínea: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-58">
           <mxGeometry y="26" width="280" height="34" as="geometry" />
         </mxCell>
         <mxCell id="F4CTMy18U6F5XihdKhC9-59" value="- Lista Vuelos: Vuelo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-58">
@@ -134,6 +134,41 @@
         </mxCell>
         <mxCell id="F4CTMy18U6F5XihdKhC9-67" value="+ getListVuelos(): List&lt;Vuelos&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-58">
           <mxGeometry y="198" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-70" value="Aeropuerto" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="280" height="328" as="geometry">
+            <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-71" value="- Nombre Aeropuerto: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="26" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-78" value="- Ubicación: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="60" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-72" value="- Lista Vuelos: Vuelo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="94" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="128" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-74" value="+ setNombreAeropuerto(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="136" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-75" value="+ getNombreAeropuerto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="168" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-79" value="+ setUbicación(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="200" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-80" value="+ getUbicación(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="232" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-76" value="+ setListVuelos(type List&lt;Vuelos&gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="264" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="F4CTMy18U6F5XihdKhC9-77" value="+ getListVuelos(): List&lt;Vuelos&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F4CTMy18U6F5XihdKhC9-70">
+          <mxGeometry y="296" width="280" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
