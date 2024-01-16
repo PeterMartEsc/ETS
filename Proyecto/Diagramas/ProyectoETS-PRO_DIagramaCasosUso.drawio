@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:35:05.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5QbaDvm_Yq3rE_pIaTdA" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:36:10.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Esp9ozSkux8BKlsouxLK" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="1400" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rqhiMFswElO3rEXaBHQ_-1" value="Usuario" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="140" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="150" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-2" value="Bibliotecario" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="215" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-4" value="&lt;u&gt;Actores&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="135" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-5" value="C.U.1: Buscar libro por autor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="130" y="360" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-6" value="&lt;u&gt;Casos de Uso&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="300" width="80" height="30" as="geometry" />
+          <mxGeometry x="135" y="300" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-7" value="C.U.2: Buscar libro por categoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="130" y="450" width="140" height="70" as="geometry" />
@@ -29,7 +29,10 @@
           <mxGeometry x="130" y="630" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-10" value="C.U.5: Deja comentario en libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="140" height="70" as="geometry" />
+          <mxGeometry x="310" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-11" value="C.U.6: Seleccionar categoría y ver lista de libros" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
