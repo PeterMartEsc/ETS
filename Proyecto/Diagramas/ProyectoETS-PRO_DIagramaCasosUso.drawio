@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:42:12.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9VyGKasWFeQDRHsSEeBj" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:44:43.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RewliV2nD9ltTHsqgDiO" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
-    <mxGraphModel dx="2100" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,57 @@
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-24" value="&lt;u&gt;Extended&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-25" value="C.U.1: Buscar Libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1060" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-26" value="C.U.3: Seleccionar libro dispinible y prestar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-27" value="C.U.4: Devuelve libro prestado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-28" value="C.U.5: Deja comentario en libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-29" value="C.U.6: Seleccionar categoría y ver lista de libros" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-30" value="C.U.7: Registrar nuevo usuario en sistema" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1060" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-31" value="C.U.8: Agregar un nuevo libro al sistema" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-32" value="C.U.9: Realizar préstamo a usuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-33" value="C.U.10: Procesa la devolución de un libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-34" value="C.U.11: Gestiona las reservas de libros" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rqhiMFswElO3rEXaBHQ_-35" target="rqhiMFswElO3rEXaBHQ_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rqhiMFswElO3rEXaBHQ_-35" target="rqhiMFswElO3rEXaBHQ_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rqhiMFswElO3rEXaBHQ_-35" target="rqhiMFswElO3rEXaBHQ_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rqhiMFswElO3rEXaBHQ_-35" target="rqhiMFswElO3rEXaBHQ_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rqhiMFswElO3rEXaBHQ_-35" target="rqhiMFswElO3rEXaBHQ_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-35" value="Usuario" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1245" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-36" value="Bibliotecario" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1245" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
