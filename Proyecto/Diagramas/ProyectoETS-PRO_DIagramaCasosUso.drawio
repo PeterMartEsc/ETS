@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:38:20.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9h-KENl2-DJgWcYb93W3" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:42:12.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9VyGKasWFeQDRHsSEeBj" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
-    <mxGraphModel dx="1400" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,20 +13,17 @@
         <mxCell id="rqhiMFswElO3rEXaBHQ_-4" value="&lt;u&gt;Actores&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="135" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rqhiMFswElO3rEXaBHQ_-5" value="C.U.1: Buscar libro por autor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-5" value="C.U.1: Buscar Libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="130" y="360" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-6" value="&lt;u&gt;Casos de Uso&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="135" y="300" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rqhiMFswElO3rEXaBHQ_-7" value="C.U.2: Buscar libro por categoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-8" value="C.U.3: Seleccionar libro dispinible y prestar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="130" y="450" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rqhiMFswElO3rEXaBHQ_-8" value="C.U.3: Seleccionar libro dispinible y prestar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="540" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-9" value="C.U.4: Devuelve libro prestado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="630" width="140" height="70" as="geometry" />
+          <mxGeometry x="130" y="540" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-10" value="C.U.5: Deja comentario en libro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="140" height="70" as="geometry" />
@@ -48,6 +45,30 @@
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-16" value="C.U.11: Gestiona las reservas de libros" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="660" y="350" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-17" value="Seleccionar categoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="900" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-18" value="&lt;u&gt;Include&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-19" value="Visualiza Información" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-20" value="Modifica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="580" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-21" value="Buscar por Titulo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="680" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-22" value="Buscar por Autor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="770" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-23" value="Buscar por Categoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="860" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-24" value="&lt;u&gt;Extended&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
