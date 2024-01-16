@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:31:51.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="y5E9pDZI5d7PTzZTB3c_" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:33:46.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZVnq5xd-TDuDzRucH27w" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="1400" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,12 @@
         </mxCell>
         <mxCell id="rqhiMFswElO3rEXaBHQ_-7" value="C.U.2: Buscar libro por categoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="130" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-8" value="C.U.3: Seleccionar libro dispinible y prestar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqhiMFswElO3rEXaBHQ_-9" value="C.U.4: Devuelve libro prestado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="630" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
