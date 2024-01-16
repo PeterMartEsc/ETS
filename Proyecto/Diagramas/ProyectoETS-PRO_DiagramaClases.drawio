@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T14:59:22.136Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hQmy6qfUVC7TUe4-G1Ak" version="22.1.19" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T15:04:14.669Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8jYqVZH4OLLqha9d3-A9" version="22.1.19" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="2390" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
           <mxGeometry y="392" width="260" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-55" value="Préstamo" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="549" width="260" height="490" as="geometry">
+          <mxGeometry x="1938" y="549" width="260" height="490" as="geometry">
             <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -287,7 +287,7 @@
           <mxGeometry y="360" width="340" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-119" value="Reserva" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="1200" width="260" height="392" as="geometry">
+          <mxGeometry x="1480" y="581" width="260" height="392" as="geometry">
             <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -479,8 +479,8 @@
             <Array as="points">
               <mxPoint x="930" y="150" />
               <mxPoint x="930" y="490" />
-              <mxPoint x="1480" y="490" />
-              <mxPoint x="1480" y="560" />
+              <mxPoint x="1820" y="490" />
+              <mxPoint x="1820" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
