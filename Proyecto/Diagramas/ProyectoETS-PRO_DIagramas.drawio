@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T10:48:12.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9kqwCCRksFsGD2t73GeY" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T10:51:28.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FEOaicuRmuMCFDbV_q_b" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="1000" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,6 +326,38 @@
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-131" value="+ cancelarReserva()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-119">
           <mxGeometry y="360" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-133" value="Editorial" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="50" width="340" height="294" as="geometry">
+            <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-134" value="- Nombre Editorial: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="26" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-135" value="- lista Libros Publicados: Libros Categoría" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="60" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-137" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="94" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-138" value="+ getNombreEditorial(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="102" width="340" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-139" value="+ setNombreEditorial(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="134" width="340" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-142" value="+ getListLibrosPublicados(): List&lt;LibrosPublicados&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="166" width="340" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-143" value="+ setListLibrosPublicados(type List&lt;LibrosPublicados&gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="198" width="340" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-144" value="+ agregarLibro()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="230" width="340" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-145" value="+ listarLibrosPublicados()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-133">
+          <mxGeometry y="262" width="340" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
