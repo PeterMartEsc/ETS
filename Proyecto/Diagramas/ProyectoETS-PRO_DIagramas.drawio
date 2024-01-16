@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T10:44:10.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="M2ZosKGIuOkYvcBxL8_H" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T10:44:30.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wE7RDyCmiq9_bAdKbZXy" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="1000" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -262,10 +262,10 @@
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-107" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="128" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-108" value="+ getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-108" value="+ getNombreCategoría(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="136" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-109" value="+ setNombre(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-109" value="+ setNombreCategoría(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="168" width="290" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-110" value="+ getNumeroEmpleado(): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
