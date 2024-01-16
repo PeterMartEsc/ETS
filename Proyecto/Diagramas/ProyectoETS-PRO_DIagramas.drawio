@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T10:24:37.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="p37EiGwvag-YivnmUSQ5" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T10:25:00.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bh_jH2dDAidi0N4P4_EB" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
-    <mxGraphModel dx="1050" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,50 @@
           <mxGeometry y="360" width="260" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-54" value="+ consultarHistorial()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-28">
+          <mxGeometry y="392" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-55" value="Préstamo" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="50" width="260" height="424" as="geometry">
+            <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-56" value="- Nombre: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="26" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-57" value="- Numero Identificador: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="60" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-58" value="- Historial de Préstamos: Texto/String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="94" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="128" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-60" value="+ getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="136" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-61" value="+ setNombre(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="168" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-62" value="+ getNumeroIdentificador(): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="200" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-63" value="+ setNumeroIdentificador(type Int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="232" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-64" value="+ getHistorialPréstamos(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="264" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-65" value="+ setHistorialPréstamos(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="296" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-66" value="+ solicitarPrestamo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="328" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-67" value="+ devolverLibro()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
+          <mxGeometry y="360" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-68" value="+ consultarHistorial()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-55">
           <mxGeometry y="392" width="260" height="32" as="geometry" />
         </mxCell>
       </root>
