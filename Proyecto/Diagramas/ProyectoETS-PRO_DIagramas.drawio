@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T10:44:30.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wE7RDyCmiq9_bAdKbZXy" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T10:45:12.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="skJkP0pmg5zHAVY50EvP" version="22.1.18" type="github">
   <diagram name="Página-1" id="TUS5gieN1rz3YTIe_Czn">
     <mxGraphModel dx="1000" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,7 +246,7 @@
           <mxGeometry y="360" width="260" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-103" value="Categoría Libro" style="swimlane;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="50" width="290" height="456" as="geometry">
+          <mxGeometry x="1820" y="50" width="290" height="392" as="geometry">
             <mxRectangle x="320" y="80" width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -268,29 +268,23 @@
         <mxCell id="yeNCh0Bpv_U7AYHqmpKk-109" value="+ setNombreCategoría(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="168" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-110" value="+ getNumeroEmpleado(): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-112" value="+ getDescripción(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="200" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-111" value="+ setNumeroEmpleado(type Int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-113" value="+ setDescripción(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="232" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-112" value="+ getHorario(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-117" value="+ getListLibrosCategoría(): List&lt;LibrosCategoría&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="264" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-113" value="+ setHorario(type String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-118" value="+ setListLibrosCategoría(type List&lt;LibrosCategoría&gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="296" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-117" value="+ getListLibrosCategoría(): List&lt;LibrosCategoría&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-114" value="+ agregarLibro()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="328" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-118" value="+ setListLibrosCategoría(type List&lt;LibrosCategoría&gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
+        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-115" value="+ quitarLibro()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
           <mxGeometry y="360" width="290" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-114" value="+ procesarPrestamo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
-          <mxGeometry y="392" width="290" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="yeNCh0Bpv_U7AYHqmpKk-115" value="+ gestionarDevolucion()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yeNCh0Bpv_U7AYHqmpKk-103">
-          <mxGeometry y="424" width="290" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
