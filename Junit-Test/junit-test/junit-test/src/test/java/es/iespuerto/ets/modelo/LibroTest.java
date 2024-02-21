@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Objects;
+
 public class LibroTest {
 
     private String isbn = "isbn";
@@ -54,6 +56,17 @@ public class LibroTest {
                 "No contiene el valor esperado");
         Assertions.assertTrue(libro.toString().contains(fPublicacion),
                 "No contiene el valor esperado");
+    }
+
+    @Test
+    public void hashCodeTest(){
+        Assertions.assertEquals(Objects.hash(isbn), libro.hashCode(), "No se ha obtenido el resultado");
+    }
+
+    @Test
+    public void equalsTest(){
+       Libro libroEquals = new Libro(isbn);
+       Assertions.assertEquals(libroEquals, libro, "No se ha obtenido el resultado");
     }
 
 }
