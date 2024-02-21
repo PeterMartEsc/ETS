@@ -17,7 +17,7 @@ public class Biblioteca {
         this.id = id;
     }
 
-    public Biblioteca(int id, String nombre, String direccion, List<Libro> libros) {
+    public Biblioteca(int id, String nombre, String direccion) {
         this.id = id;
         this.nombre = nombre;
         this.direccion = direccion;
