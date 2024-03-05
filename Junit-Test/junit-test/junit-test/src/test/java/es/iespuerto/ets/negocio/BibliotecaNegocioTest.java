@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class BibliotecaNegocioTest extends LibroTest {
 
     private int id = 1;
-    private String nombre = "nombre";
+    private String titulo = "nombre";
     private String direccion = "direccion";
     BibliotecaNegocio bibliotecaNegocio;
 
@@ -17,10 +17,10 @@ public class BibliotecaNegocioTest extends LibroTest {
 
     @BeforeEach
     public void beforeEach(){
-        bibliotecaNegocio = new BibliotecaNegocio(id, nombre, direccion);
+        bibliotecaNegocio = new BibliotecaNegocio(id, titulo, direccion);
 
         //Da igual darle el id de la biblioteca como string, simplemente estamos testeando
-        libro = new Libro(String.valueOf(id), nombre, "autor", "fPublicacion");
+        libro = new Libro(String.valueOf(id), titulo, "autor", "fPublicacion");
         bibliotecaNegocio.addLibro(libro);
     }
 
@@ -35,7 +35,7 @@ public class BibliotecaNegocioTest extends LibroTest {
     @Test
     public void addLibroTest(){
         bibliotecaNegocio.addLibro(libro);
-        Assertions.assertEquals(1, bibliotecaNegocio.obtenerLibros().size(), "No se ha obtenido el numero esperado");
+        Assertions.assertEquals(id, bibliotecaNegocio.obtenerLibros().size(), "No se ha obtenido el numero esperado");
     }
 
     @Test
@@ -73,4 +73,12 @@ public class BibliotecaNegocioTest extends LibroTest {
         libroBuscar = bibliotecaNegocio.obtenerLibro(libroBuscar);
         Assertions.assertEquals(otroTtitulo, libroBuscar.getTitulo(), "No se ha obtenido el texto esperado");
     }
+
+    @Test
+    public void actualizarLibroNoExistenteTest(){
+
+        Libro libroActualizar = new Libro(String.valueOf("2"));
+        Assertions.assertFalse(bibliotecaNegocio.actualizarLibro(libroActualizar), "No se ha actualizado de forma correcta");
+    }
+
 }

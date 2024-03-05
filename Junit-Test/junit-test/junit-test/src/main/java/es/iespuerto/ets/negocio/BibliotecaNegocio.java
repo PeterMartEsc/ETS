@@ -53,6 +53,8 @@ public class BibliotecaNegocio {
 
     public boolean actualizarLibro(Libro libro){
         if(existeLibro(libro)){
+            int posicion = biblioteca.getLibros().indexOf(libro);
+            biblioteca.getLibros().add(posicion, libro);
             return true;
         }
 
