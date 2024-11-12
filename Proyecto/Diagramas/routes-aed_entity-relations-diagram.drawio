@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Página-1" id="sMffz4cxX_O1DQu2CV4w">
-    <mxGraphModel dx="1050" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
         <mxCell id="Sw47yDHgjzvNuqYH38Y1-1" value="N:M" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Sw47yDHgjzvNuqYH38Y1-2" value="user" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Sw47yDHgjzvNuqYH38Y1-2" value="user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="160" y="150" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Sw47yDHgjzvNuqYH38Y1-3" value="group" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Sw47yDHgjzvNuqYH38Y1-3" value="group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="610" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pIN1pa-sZytkGsDM2BtY-1" value="1:n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -25,7 +25,7 @@
         <mxCell id="pIN1pa-sZytkGsDM2BtY-2" value="1:n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIN1pa-sZytkGsDM2BtY-3" value="route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-3" value="route" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="610" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pIN1pa-sZytkGsDM2BtY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pIN1pa-sZytkGsDM2BtY-4" target="Sw47yDHgjzvNuqYH38Y1-3">
@@ -43,7 +43,7 @@
         <mxCell id="pIN1pa-sZytkGsDM2BtY-8" value="1:1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIN1pa-sZytkGsDM2BtY-9" value="u&lt;span style=&quot;background-color: initial;&quot;&gt;_image&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-9" value="u&lt;span style=&quot;background-color: initial;&quot;&gt;_image&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pIN1pa-sZytkGsDM2BtY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pIN1pa-sZytkGsDM2BtY-10" target="Sw47yDHgjzvNuqYH38Y1-2">
@@ -61,7 +61,7 @@
         <mxCell id="pIN1pa-sZytkGsDM2BtY-14" value="1:1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="350" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIN1pa-sZytkGsDM2BtY-15" value="rol" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-15" value="rol" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="160" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pIN1pa-sZytkGsDM2BtY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pIN1pa-sZytkGsDM2BtY-17" target="pIN1pa-sZytkGsDM2BtY-15">
@@ -78,6 +78,30 @@
         </mxCell>
         <mxCell id="pIN1pa-sZytkGsDM2BtY-21" value="1:n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-22" value="pertenece a un" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="105" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-23" value="contiene muchos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-24" value="tiene un" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-25" value="lo tienen varios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="85" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-26" value="tiene una" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-27" value="pertenece a un" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-28" value="pertenece a un" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="225" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pIN1pa-sZytkGsDM2BtY-29" value="tiene varias" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="350" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
